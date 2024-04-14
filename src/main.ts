@@ -1,13 +1,13 @@
 import {
   differenceObjectArrayByKey,
   uniqueObjectArrayByKey,
-} from './common.js';
+} from './common/common.js';
 import { compareFunction } from './compareFunction.js';
-import { array1, array2, randomArray } from './exampleConstant.js';
+import { array1, array2, randomArray } from './example/objectArr.js';
 import {
   differenceObjectArrayByKeyFromLodash,
   uniqueObjectArrayByKeyFromLodash,
-} from './lodash.js';
+} from './lodash/lodash.js';
 
 // Use the differenceObjectArrayByKey common function using native JavaScript/Typescript
 
